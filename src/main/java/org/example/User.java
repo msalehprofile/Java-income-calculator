@@ -24,7 +24,7 @@ public class User {
     }
 
     public static void shareIncomeAfterTax() {
-        postTaxIncome = MathUtilsTax.getUserIncomeAfterTax();
+
         System.out.println("\nAfter tax your take home pay is:" +
                 "\nAnnually: " + postTaxIncome +
                 "\nMonthly: " + postTaxIncome/12
