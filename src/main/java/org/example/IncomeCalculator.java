@@ -7,7 +7,7 @@ public class IncomeCalculator {
         User.getUserIncome();
         MathUtilsTax.calculateIncomeTax();
         User.shareIncomeAfterTax();
-
+        MathsUtilsNI.calculateNIToPay();
     }
 
 
